@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Sort">
+        <menu>
+            <item
+
+                android:onClick="MenuClick"
+                android:title="Sort by Genre" />
+            <item
+
+                android:onClick="MenuClick"
+                android:title="Sort by Name" />
+            <item
+                android:onClick="MenuClick"
+                android:title="Sort by Kind" />
+            <item
+
+                android:onClick="MenuClick"
+                android:title="Shuffle Sort" />
+        </menu>
+    </item>
+    <item
+        android:onClick="MenuClick"
+        android:title="Select Movie By Genre" />
+
+    <item
+        android:title="Search by Name"
+        android:onClick="MenuClick" />
+</menu>
